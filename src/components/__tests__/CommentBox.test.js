@@ -13,9 +13,9 @@ afterEach(() => {
   wrapper.unmount();
 });
 
-it('should contain a textarea box and a button', () => {
+it('should contain a textarea box and two buttons', () => {
   expect(wrapper.find('textarea').length).toEqual(1);
-  expect(wrapper.find('button').length).toEqual(1);
+  expect(wrapper.find('button').length).toEqual(2);
 });
 
 describe('the text area and form submit', () => {
